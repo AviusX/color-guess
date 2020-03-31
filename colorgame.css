@@ -1,0 +1,110 @@
+body {
+    background-color : #232323;
+    margin : 0;
+    font-family : "Montserrat";
+}
+
+h1 {
+    color : white;
+    text-align : center;
+    background-color : steelblue;
+    margin : 0;
+    font-weight : 300;
+    text-transform : uppercase;
+    padding : 20px 0;
+    transition: background 300ms;
+    -webkit-transition: background 300ms;
+    -moz-transition: background 300ms;
+}
+
+button {
+    border : none;
+    background : none;
+    height : 100%;
+    font-weight : 700;
+    letter-spacing : 0.5px;
+    text-transform : uppercase;
+    font-size : inherit;
+    color : steelblue;
+    outline : none;
+    transition : all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+}
+
+button:hover {
+    background-color : steelblue;
+    color : white;
+}
+
+#colorDisplay {
+    font-size : 2em;
+    font-weight : 400;
+}
+
+#message {
+    display : inline-block;
+    width : 20%;
+}
+
+#container {
+    margin : 40px auto;
+    width : 40%;
+}
+
+#help {
+    display : flex;
+    flex-direction: column;
+    margin : 0 auto;
+    width : 40%;
+    justify-content : center;
+    align-items: center;
+    text-align : center;
+}
+
+#paletteButton {
+    margin-top : 2.5rem;
+    background-color : steelblue;
+    color : white;
+    padding : 1em;
+    border-radius : 2em;
+    justify-self: center;
+}
+
+#paletteButton:hover {
+    background-color : white;
+    color : steelblue;
+}
+
+#palette {
+    margin : 100px;
+    width : 50%;
+}
+
+.hide {
+    display : none;
+}
+
+.square {
+    width : 30%;
+    background-color : purple;
+    padding-bottom : 30%;
+    float : left;
+    margin : 1.66%; 
+    border-radius : 15%;
+    transition: all 600ms;
+    -webkit-transition: background 600ms;
+    -moz-transition: background 600ms;
+}
+
+#playBar {
+    background-color : white;
+    height : 30px;
+    text-align: center;
+    color : black;
+}
+
+.selected {
+    color : white;
+    background-color : steelblue;
+}
