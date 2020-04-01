@@ -109,13 +109,13 @@ button:hover {
     background-color : steelblue;
 }
 
-@media screen and (max-width : 515px) {
+@media screen and (max-width : 600px) {
     #colorDisplay {
         font-size : 1.5em;
     }
 }
 
-@media screen and (max-width : 800px) {
+@media screen and (max-width : 1000px) {
     #container {
         width : 70%;
     }
