@@ -108,3 +108,20 @@ button:hover {
     color : white;
     background-color : steelblue;
 }
+
+@media screen and (max-width : 515px) {
+    #colorDisplay {
+        font-size : 1.5em;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    #container {
+        width : 70%;
+    }
+
+    #paletteButton {
+        padding : 0.5em;
+        border-radius : 1.5em;
+    }
+}
